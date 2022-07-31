@@ -103,14 +103,14 @@ You can customize the claviature using the following options:
 />
 ```
 
-<Claviature
+<!-- <Claviature
   options={{
     colorize: [
       { keys: ['C3', 'E3', 'G3'], color: 'steelblue' },
       { keys: ['A3', 'C#4', 'E4'], color: 'tomato' },
     ],
   }}
-/>
+/> -->
 
 ### scaleX + scaleX
 
