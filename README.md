@@ -31,6 +31,8 @@ To render the object you get from `getClaviature`, just wire it up with your fav
 This is how you render with react:
 
 ```js
+import { getClaviature } from "claviature";
+
 export default function Claviature({
   options,
   onClick,
