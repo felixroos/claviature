@@ -1,0 +1,36 @@
+{
+  "name": "claviature",
+  "version": "0.1.0",
+  "description": "This lib allows you to render a flexible SVG piano claviature on the web.",
+  "main": "dist/claviature.js",
+  "type": "module",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "vitest",
+    "coverage": "vitest run --coverage",
+    "build": "vite build",
+    "prepublishOnly": "npm test --mode run && npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/felixroos/claviature.git"
+  },
+  "keywords": [
+    "piano",
+    "svg",
+    "claviature",
+    "web"
+  ],
+  "author": "Felix Roos <flix91@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/felixroos/claviature/issues"
+  },
+  "homepage": "https://github.com/felixroos/claviature#readme",
+  "devDependencies": {
+    "vite": "^3.0.4",
+    "vitest": "^0.20.1"
+  }
+}
